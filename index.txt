@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diddy Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Diddy Clicker</h1>
+    <div class="click-area">
+      <img id="diddy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sean_Combs_2016.jpg/640px-Sean_Combs_2016.jpg" alt="P. Diddy" />
+      <p>Click to gain clickers!</p>
+      <p>Clickers: <span id="clicker-count">0</span></p>
+      <p>Clickers per second: <span id="cps">0</span></p>
+    </div>
+    <div class="rebirth-section">
+      <button id="rebirth-button">Rebirth (Cost: <span id="rebirth-cost">10000</span> Clickers)</button>
+      <p>Rebirth Boosts:</p>
+      <ul>
+        <li>+0.1 Clickers per second (Unlocks after rebirth)</li>
+        <li>+1 Clicker per second (Unlocks after second rebirth)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
